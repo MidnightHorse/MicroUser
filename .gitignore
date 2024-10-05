@@ -1,0 +1,22 @@
+# Python
+src/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+__pycache__/
+
+# Environment Variables
+.env
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# IDE specific files (if applicable)
+.vscode/
+.idea/
+
+# Other files you may want to ignore...
+.venv/
